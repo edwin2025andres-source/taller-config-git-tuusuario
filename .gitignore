@@ -1,0 +1,11 @@
+# Configuración local y secretos
+.env
+.env.*
+!.env.example
+
+# Archivo usado para practicar git rm --cached
+borrame.txt
+
+# Dependencias y archivos del sistema
+node_modules/
+.DS_Store
