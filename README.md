@@ -48,6 +48,13 @@ Repositorio de práctica para aprender a configurar una aplicación con variable
 - **`git rm --cached`:** retira del índice un archivo que ya estaba rastreado, sin borrarlo de la carpeta local. La exclusión no elimina ese archivo de commits anteriores.
 - **Gitflow básico:** `main` conserva la versión estable, `develop` integra trabajo y `feature/descripcion` contiene el cambio propuesto mediante un Pull Request hacia `develop`.
 
+## Lo que aprendí
+
+- Una variable de entorno permite cambiar la configuración que recibe un programa sin modificar su código.
+- `.gitignore` evita incorporar archivos locales nuevos al índice de Git; no quita del historial un archivo que ya se había confirmado.
+- `git rm --cached` deja de rastrear un archivo sin eliminar la copia local.
+- Una rama `feature` aísla un cambio para que pueda revisarse en un Pull Request antes de integrarlo a `develop`.
+
 ## Flujo de ramas del taller
 
 Partiendo de `main`, crea `develop` y publícala:
