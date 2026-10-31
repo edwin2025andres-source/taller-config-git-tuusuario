@@ -1,14 +1,5 @@
 # Taller: configuración y Git
 
-Repositorio de práctica para aprender a configurar una aplicación con variables de entorno y a colaborar con Git y GitHub.
-
-> Completa tu nombre y grupo antes de entregar. Usa solamente valores ficticios: nunca guardes contraseñas, tokens ni claves en este repositorio.
-
-## Datos del estudiante
-
-- **Nombre:** _Escribe tu nombre_
-- **Grupo:** _Escribe tu grupo_
-
 ## Requisitos
 
 - Git
