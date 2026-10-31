@@ -9,3 +9,6 @@ borrame.txt
 # Dependencias y archivos del sistema
 node_modules/
 .DS_Store
+
+# Datos persistentes generados por Ghost en Docker
+ghost-data/

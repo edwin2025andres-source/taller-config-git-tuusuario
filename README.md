@@ -2,6 +2,31 @@
 
 Repositorio de práctica para aprender a configurar una aplicación con variables de entorno y a colaborar con Git y GitHub.
 
+## Taller Ghost 5.130.2
+
+El entregable del taller solicitado está en [Taller_Ghost_5.130.2.pdf](Taller_Ghost_5.130.2.pdf). Incluye una tabla de 15 funcionalidades, un diagrama de dominio con atributos y relaciones, y una tabla de 10 reportes de defectos con su estado de verificación y referencias públicas.
+
+Para iniciar Ghost con Docker Desktop, desde la raíz de este repositorio ejecuta:
+
+```bash
+docker compose up -d
+docker ps
+```
+
+Abre el sitio en <http://localhost:2368> y la configuración de administración en <http://localhost:2368/ghost>. En la instalación de este equipo se verificó el contenedor `ghost:5.130.2` y la página pública local. El asistente de `/ghost` queda para que el equipo cree su cuenta administradora con sus propias credenciales. Los datos persistentes se guardan en `ghost-data/`, excluida de Git.
+
+Para detener el contenedor sin borrar el contenido:
+
+```bash
+docker compose stop
+```
+
+Para volver a iniciarlo:
+
+```bash
+docker compose start
+```
+
 > Completa tu nombre y grupo antes de entregar. Usa solamente valores ficticios: nunca guardes contraseñas, tokens ni claves en este repositorio.
 
 ## Datos del estudiante
