@@ -1,0 +1,127 @@
+:root {
+    --background-color: #081725 !important;
+    --ghost-accent-color: #176b4e !important;
+    --color-white: #f2f8f8;
+    --color-lighter-gray: rgb(255 255 255 / 0.06);
+    --color-light-gray: #173246;
+    --color-mid-gray: #527082;
+    --color-dark-gray: #a1b9c0;
+    --color-darker-gray: #e4f0ee;
+    --color-primary-text: #d8e5e8;
+    --color-secondary-text: #9cb4bd;
+    --color-border: rgb(160 190 200 / 0.16);
+    --color-dark-border: rgb(160 190 200 / 0.42);
+}
+
+body {
+    background-color: #081725;
+    color: #d8e5e8;
+}
+
+.gh-navigation {
+    height: 76px;
+    background-color: #0d2639;
+    color: #e4f0ee;
+}
+
+.gh-navigation-actions {
+    display: none !important;
+}
+
+.gh-navigation-logo {
+    color: #54c692 !important;
+}
+
+.gh-navigation.has-accent-color,
+.gh-footer.has-accent-color {
+    background-color: #0d2639;
+}
+
+.gh-header.is-classic {
+    min-height: 0;
+    margin-top: 12px;
+    padding-block: clamp(40px, 7vh, 72px);
+    color: #e4f0ee;
+    background-color: #0d2639;
+    background-image: none;
+    border: 1px solid #176b4e;
+    border-radius: 20px;
+}
+
+.gh-header.is-classic .gh-header-inner {
+    max-width: 980px;
+}
+
+.gh-header-title {
+    max-width: 28ch;
+    margin-inline: auto;
+    font-size: clamp(2.8rem, 5vw, 4.4rem);
+}
+
+.gh-header-image,
+.gh-header .gh-form {
+    display: none !important;
+}
+
+.gh-footer-menu {
+    display: none !important;
+}
+
+.gh-button,
+.gh-form-button,
+.gh-navigation .gh-button {
+    color: #f2f8f8;
+    background-color: #176b4e;
+}
+
+.gh-button:hover,
+.gh-form-button:hover,
+.gh-navigation .gh-button:hover {
+    background-color: #21845f;
+}
+
+.gh-card-title,
+.gh-article-title,
+.gh-header-title {
+    color: #e4f0ee;
+}
+
+.gh-card-excerpt,
+.gh-article-excerpt,
+.gh-article-meta,
+.gh-card-meta {
+    color: #9cb4bd;
+}
+
+.gh-card-image,
+.gh-article-image {
+    background-color: #10283a;
+    border-radius: 14px;
+}
+
+.gh-content a,
+.gh-article-tag {
+    color: #54c692;
+}
+
+.gh-content pre,
+.gh-content :not(pre) > code,
+.kg-bookmark-card a.kg-bookmark-container {
+    background: #10283a;
+    border-color: #1b3d50;
+}
+
+.gh-form input.gh-form-input {
+    color: #e4f0ee;
+    background: #10283a;
+    border-color: #315365;
+}
+
+.gh-form input.gh-form-input::placeholder {
+    color: #9cb4bd;
+}
+
+::selection {
+    color: #f2f8f8;
+    background: #176b4e;
+}

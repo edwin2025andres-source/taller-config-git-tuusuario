@@ -6,6 +6,8 @@ Repositorio de práctica para aprender a configurar una aplicación con variable
 
 El entregable del taller solicitado está en [Taller_Ghost_5.130.2.pdf](Taller_Ghost_5.130.2.pdf). Incluye una tabla de 15 funcionalidades, un diagrama de dominio con atributos y relaciones, y una tabla de 10 reportes de defectos con su estado de verificación y referencias públicas.
 
+El tema Source de Ghost se personalizó con una interfaz más limpia, fondo azul oscuro, superficies azul petróleo y acentos verdes. Los archivos editables están en `ghost-theme/source/` y Compose los monta en Ghost.
+
 Para iniciar Ghost con Docker Desktop, desde la raíz de este repositorio ejecuta:
 
 ```bash
