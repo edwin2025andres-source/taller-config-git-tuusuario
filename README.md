@@ -31,6 +31,14 @@ docker compose start
 
 > Completa tu nombre y grupo antes de entregar. Usa solamente valores ficticios: nunca guardes contraseñas, tokens ni claves en este repositorio.
 
+## Trabajo de investigación: TDD y Mutation Testing
+
+El trabajo para Grupo 02 está en [output/pdf/TDD_Mutation_Testing.pdf](output/pdf/TDD_Mutation_Testing.pdf). Incluye explicación, ciclo Red-Green-Refactor, usos, beneficios y límites, diagrama, referencias y guía para el prototipo.
+
+Abre [tdd-mutation-testing/index.html](tdd-mutation-testing/index.html) en un navegador para interactuar con el laboratorio: ejecuta tres casos de descuento contra el código original y tres mutaciones. Consulta [la guía del prototipo](tdd-mutation-testing/README.md) para usarlo.
+
+Completa los nombres de integrantes del Grupo 02 antes de presentar.
+
 ## Datos del estudiante
 
 - **Nombre:** _Escribe tu nombre_
