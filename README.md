@@ -37,6 +37,8 @@ El trabajo para Grupo 02 está en [output/pdf/TDD_Mutation_Testing.pdf](output/p
 
 Abre [tdd-mutation-testing/index.html](tdd-mutation-testing/index.html) en un navegador para interactuar con el laboratorio: ejecuta tres casos de descuento contra el código original y tres mutaciones. Consulta [la guía del prototipo](tdd-mutation-testing/README.md) para usarlo.
 
+La [presentación para exponer](output/presentations/TDD_Mutation_Testing_Grupo02.pptx) tiene notas para el expositor. El [ejemplo Git paso a paso](tdd-mutation-testing/EJEMPLO_GIT.md) muestra una rama `feature`, commits de TDD, una mutación manual y un Pull Request hacia `develop`.
+
 Completa los nombres de integrantes del Grupo 02 antes de presentar.
 
 ## Datos del estudiante
